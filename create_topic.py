@@ -11,9 +11,9 @@ admin_client = KafkaAdminClient(
 )
 
 # Визначення нового топіку
-my_name = "oleksiy"
+my_name = "oleksiy322"
 topic_name = f"{my_name}_topic_1"
-num_partitions = 2
+num_partitions = 3
 replication_factor = 1
 
 new_topic = NewTopic(
